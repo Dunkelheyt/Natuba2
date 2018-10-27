@@ -46,9 +46,6 @@ body, html {
   color: white;
 }
 
-.content {
-  padding: 30px;
-}
 
 .sticky {
   position: fixed;
@@ -56,6 +53,33 @@ body, html {
   width: 100%;
 }
 
-.sticky + .content {
+.sticky + .info {
   padding-top: 60px;
+}
+
+
+.info{
+  background-color: rgb(48,48,48);
+}
+
+#info_Inside p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.info2{
+  background-color: rgb(48,48,48);
+}
+
+#info2_Inside p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 38px;
 }
