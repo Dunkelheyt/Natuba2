@@ -139,11 +139,11 @@ padding: 6% 2%;
 .info2 h3 {
 	font-family: 'Pacifico', cursive;
 	font-weight: 400;
-	color: #fff;
+	color: black;
 	font-size: 24px;
 	margin: 0 30px;
 	padding: 100px 0 0 0;
-	line-height: 1.5;
+	line-height: 1.3;
 }
 
 .info2 p {
@@ -156,6 +156,85 @@ padding: 6% 2%;
 }
 
 .img1 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
-	url("img/mixen.jpg");
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixen.jpg");
+}
+
+.img2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixmanki.jpg");
+}
+
+.img3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixpin.jpg");
+}
+
+.img4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixaran.jpg");
+}
+
+.img5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/chi.jpg");
+}
+
+.img6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/chien.jpg");
+}
+
+.img7 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixplat.jpg");
+}
+
+.img8 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixcamo.jpg");
+}
+
+.img9 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/mixplaten.jpg");
+}
+
+.img10 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/chipszanen.jpg");
+}
+
+.img11 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/chipscam.jpg");
+}
+
+.img12 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/chipsbeten.jpg");
 }
