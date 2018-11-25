@@ -61,12 +61,13 @@ body, html {
 }
 
 
-.info{
+.info, .info2, .info3{
   background-color: rgb(48,48,48);
   max-width: 100%;
 margin: 0 auto;
 padding: 6% 2%;
 }
+
 
 #info_Inside p{
   margin: 0;
@@ -77,14 +78,16 @@ padding: 6% 2%;
   font-size: 24px;
 }
 
-.info2{
-  background-color: rgb(48,48,48);
-    max-width: 100%;
-  margin: 0 auto;
-  padding: 6% 2%;
+#info2_Inside p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 38px;
 }
 
-#info2_Inside p{
+#info3_Inside p{
   margin: 0;
   padding: 0;
   text-align: center;
@@ -154,6 +157,20 @@ padding: 6% 2%;
 	font-size: 14px;
 	line-height: 2;
 }
+
+.info3 p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.info3 h2{
+  text-align: center;
+}
+
 
 .img1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
@@ -237,4 +254,35 @@ padding: 6% 2%;
   background-position: center;
    background-size: cover;
 	background-image: url("img/chipsbeten.jpg");
+}
+
+
+.aligncenter{
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+
+.row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
