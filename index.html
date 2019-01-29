@@ -7,23 +7,26 @@
   <link rel = "stylesheet" href="style.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
   <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/menuspy.js"></script>
   <script src = "script.js"></script>
 </head>
 
 <body>
 <div class="header">
+  <div id ="top"></div>
 </div>
 
 <div id="navbar">
-  <a class="active" href="javascript:void(0)">Inicio</a>
-  <a href="javascript:void(0)">Acerca de Natuba</a>
-  <a href="javascript:void(0)">Productos</a>
-  <a href="javascript:void(0)">Paquetes</a>
-  <a href="javascript:void(0)">¿Dónde nos puedes encontrar?</a>
-  <a href="javascript:void(0)">Redes Sociales</a>
-  <a href="javascript:void(0)">Amigos de Natuba</a>
+  <a class="btn active" href="#top">Inicio</a>
+  <a class="btn" href="#info_Inside">Acerca de Natuba</a>
+  <a class="btn" href="#info2_Inside">Productos</a>
+  <a class="btn" href="#info4_Inside">Paquetes</a>
+  <a class="btn" href="#info3_Inside">¿Dónde nos puedes encontrar?</a>
+  <a class="btn" href="#info5_Inside">Amigos de Natuba</a>
+  <a class="btn" href="#info6_Inside">Redes Sociales</a>
 </div>
 
+<section id="info_1">
 <div class="info">
   <div id = "info_Inside">
   <p style ="padding-top: 5%;
@@ -40,8 +43,9 @@
 
   </div>
 </div>
+</section>
 
-
+<section id = "info_2">
 <div class = info2>
   <div id = info2_Inside>
   <p style = "padding-top:8%;">Nuestros Productos</p>
@@ -52,8 +56,6 @@
         <div class = "box img1">
         <a href="img/mixen.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Mix de frutos secos enchilados</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -63,8 +65,6 @@
         <div class = "box img2">
           <a href="img/mixmanki.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Mix de frutos secos: manzana-wiki</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -74,8 +74,6 @@
         <div class = "box img3">
           <a href="img/mixpin.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Mix de frutos secos: piña con arandanos</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -85,8 +83,6 @@
         <div class = "box img4">
           <a href="img/mixaran.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Mix de frutos secos: con arandano</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -96,8 +92,6 @@
         <div class = "box img5">
           <a href="img/chi.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chicharrones hechos de soya</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -107,8 +101,6 @@
         <div class = "box img6">
           <a href="img/chien.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chicharrones de soya enchilados</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -118,8 +110,6 @@
         <div class = "box img7">
           <a href="img/mixplat.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chips deshidratados: platano</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -129,8 +119,6 @@
         <div class = "box img8">
           <a href="img/mixcamo.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chips deshidratados: camote enchilado</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -140,8 +128,6 @@
         <div class = "box img9">
           <a href="img/mixplaten.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chips deshidratados: platano enchilado</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -151,8 +137,6 @@
         <div class = "box img10">
           <a href="img/chipszanen.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chips deshidratados: zanahoria enchilada</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -162,8 +146,6 @@
         <div class = "box img11">
           <a href="img/chipscam.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chips deshidratados: camote</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -173,8 +155,6 @@
         <div class = "box img12">
           <a href="img/chipsbeten.jpg" data-lightbox="image-1" data-title="My caption">
             <div class = "box_Info">
-              <h3>Chips deshidratados: betabel enchilado</h3>
-              <p>Nulla</p>
             </div>
           </a>
         </div>
@@ -182,8 +162,14 @@
     </ul>
   </div>
 </div>
+</section>
 
-<div class = "infopaq">
+<section id = "info_3">
+<div class = info4>
+  <div id = info4_Inside>
+  <p style = "padding-top:8%;">Nuestros Paquetes</p>
+  <hr style = "width:50%;">
+</div>
 </div>
 
 <div class = "info3">
@@ -230,16 +216,18 @@
     </div>
 
     <div id = "featureMid">
-      <img src="img/snackc.png"/>
+      <a href="https://snackclub.mx"><img src="img/snackc.png"/></a>
       <p>Snack Club:</p>
-      <p>Su sitio web se puede acceder haciendo clic AQUI! o en el logo.</p>
-      <p>Envío de cajas de snacks saludables a todo México.</p>
+      <p>Su sitio web se puede acceder haciendo en la siguiente liga o usando el logo.</p>
+       <a href="https://snackclub.mx"><p>Snackclub.com</p></a>
+       <p>Envío de cajas de snacks saludables a todo México.</p>
     </div>
 
     <div id = "featureMid">
-      <img src="img/munchb.png"/>
+      <a href="https://munchbox.com.mx/"><img src="img/munchb.png"/></a>
       <p>Munch Box</p>
-      <p>Su sitio web se puede acceder haciendo clic AQUI! o en el logo.</p>
+      <p>Su sitio web se puede acceder haciendo en la siguiente liga o usando el logo.</p>
+       <a href="https://munchbox.com.mx/"><p>Munchbox.com</p></a>
       <p>Envío de cajas de snacks saludables a todo México.</p>
     </div>
 
@@ -301,6 +289,22 @@
     <p class = "aligncenter"><img src = "img/healty.jpg" style = "width:10% "></p>
     <p class = "aligncenter">En todas las sucursales de Healty Home: Centro Medico y Spa.
   </div>
+
+
+  <div class = info5>
+    <div id = info5_Inside>
+    <p style = "padding-top:8%;">Amigos de Natuba</p>
+    <hr style = "width:50%;">
+  </div>
+  </div>
+
+
+  <div class = info6>
+    <div id = info6_Inside>
+    <p style = "padding-top:8%;">Redes Sociales</p>
+    <hr style = "width:50%;">
+  </div>
+  </div>
 </div>
 
 <script>
@@ -315,6 +319,18 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+}
+</script>
+
+<script>
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
 }
 </script>
 </body>
