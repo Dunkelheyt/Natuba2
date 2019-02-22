@@ -59,7 +59,7 @@ body, html {
 
 
 
-.info, .info2, .info3, .info4, .info5, .info6{
+.info, .info2, .info3, .info4, .info5, .info6, .info7, .infoAmigos{
   background-color: rgb(48,48,48);
   max-width: 100%;
 margin: 0 auto;
@@ -128,6 +128,18 @@ font-weight: 400;
 }
 
 #info6_Inside p{
+  font-family: orator-std, monospace;
+font-style: normal;
+font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 38px;
+}
+
+#info7_Inside p{
   font-family: orator-std, monospace;
 font-style: normal;
 font-weight: 400;
@@ -234,90 +246,105 @@ font-weight: 400;
   text-align: center;
 }
 
-.img1 {
+.cimg1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/mixen.jpg");
+	background-image: url("img/cbetchile.jpg");
 }
 
-.img2 {
+.cimg2 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/mixmanki.jpg");
+	background-image: url("img/ccamote.jpg");
 }
 
-.img3 {
+.cimg3 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/mixpin.jpg");
+	background-image: url("img/cplatano.jpg");
 }
 
-.img4 {
+.cimg4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/cchicharron.jpg");
+}
+
+.cimg5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/czanahoria.jpg");
+}
+
+.cimg6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/ccamotechile.jpg");
+}
+
+.cimg7 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/cplatanochile.jpg");
+}
+
+.cimg8 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+  background-position: center;
+   background-size: cover;
+	background-image: url("img/cchicharronsoyachile.jpg");
+}
+
+
+/*Mix data product*/
+.mimg1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
 	background-image: url("img/mixaran.jpg");
 }
 
-.img5 {
+.mimg2 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/chi.jpg");
+	background-image: url("img/mixpin.jpg");
 }
 
-.img6 {
+.mimg3 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/chien.jpg");
+	background-image: url("img/mixmanki.jpg");
 }
 
-.img7 {
+.mimg4 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/mixplat.jpg");
+	background-image: url("img/mixen.jpg");
 }
 
-.img8 {
+.mimg5 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/mixcamo.jpg");
+	background-image: url("img/mixarac.jpg");
 }
 
-.img9 {
+.mimg6 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
    background-size: cover;
-	background-image: url("img/mixplaten.jpg");
+	background-image: url("img/mixnopal.jpg");
 }
-
-.img10 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
-  background-position: center;
-   background-size: cover;
-	background-image: url("img/chipszanen.jpg");
-}
-
-.img11 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
-  background-position: center;
-   background-size: cover;
-	background-image: url("img/chipscam.jpg");
-}
-
-.img12 {
-	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
-  background-position: center;
-   background-size: cover;
-	background-image: url("img/chipsbeten.jpg");
-}
-
 
 .aligncenter{
   text-align: center;
@@ -350,4 +377,64 @@ font-weight: 400;
   font-family: orator-std, monospace;
 font-style: normal;
 font-weight: 400;
+}
+
+
+/*Two equals columns*/
+.col-container{
+  display:table;
+  width:100%;
+}
+
+.col{
+  display:table-cell;
+  padding:16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    display: block;
+    width: 100%;
+  }
+}
+
+/*Centered image*/
+ .cimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #006400;
+  max-width: 75%;
+  height: auto;
+}
+
+/*Centered image small*/
+.cimgSmall {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border: 5px solid #006400;
+ max-width: 32%;
+ height: auto;
+}
+
+/*Text wrap*/
+.rightImg{
+  float: right;
+  max-width: 25%;
+  height: auto;
+  margin-left:10px;
+  border: 5px solid #006400;
+}
+
+.rightLeft{
+  float: left;
+  max-width: 25%;
+  height: auto;
+  margin-left:10px;
+  border: 5px solid #006400;
+}
+
+.wrapP{
+  font-size:75%;
 }
