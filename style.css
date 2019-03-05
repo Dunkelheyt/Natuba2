@@ -4,10 +4,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   font-size: 28px;
-  /*
-  background-image: url("img/bgnatuba.jpg");
-  background-repeat: repeat;
-  */
 }
 
 body, html {
@@ -15,11 +11,29 @@ body, html {
 }
 
 .header {
-  background-image: url("img/banner.jpg");
+  background-image: url("img/sbanner.jpg");
   background-repeat: round;
   padding: 352px;
-  text-align: center;
+  width: 100%;
+  height: auto;
 }
+
+@media only screen and (min-width: 601px) {
+  .header {
+     background-image: url('img/banner.jpg');
+     max-width: 100%;
+     height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+     background-image: url("img/banner.jpg");
+     width: 50%;
+     height: 50px;
+  }
+}
+
 
 #navbar {
   overflow: hidden;
@@ -29,14 +43,35 @@ body, html {
   z-index: 999;
 }
 
-.btn {
-  float: center;
-  display: inline-block;
-  color: black;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+
+@media screen and (min-width: 601px) {
+  .btn {
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    float: center;
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    float: center;
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+  }
 }
 
 .btn:hover {
@@ -48,7 +83,6 @@ body, html {
   background-color: #4CAF50;
   color: white;
 }
-
 
 .sticky {
   position: fixed;
@@ -66,17 +100,34 @@ margin: 0 auto;
 padding: 6% 2%;
 }
 
+/*Do not nest*/
 
-#info_Inside p{
-  font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: white;
-  letter-spacing: 1px;
-  font-size: 24px;
+@media screen and (min-width:601px){
+  #info_Inside p{
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width:600px){
+  #info_Inside p{
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
 }
 
 #info2_Inside p{
@@ -88,25 +139,93 @@ font-weight: 400;
   text-align: center;
   color: white;
   letter-spacing: 2px;
-  font-size: 38px;
+  font-size: 26px;
 }
 
-#info3_Inside p{
+#info2_Inside h1{
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
   color: white;
   letter-spacing: 2px;
-  font-size: 38px;
+  font-size: 26px;
+}
+
+@media screen and (min-width: 601px) {
+  #info2_Inside p{
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #info2_Inside p{
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+}
+
+#info3_Inside p{
+  font-family: orator-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+
+@media screen and (min-width: 601px) {
+  #info3_Inside p{
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #info3_Inside p{
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 26px;
+  }
 }
 
 #info4_Inside p{
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -117,20 +236,20 @@ font-weight: 400;
 
 #info5_Inside p{
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
   color: white;
   letter-spacing: 2px;
-  font-size: 38px;
+  font-size: 26px;
 }
 
 #info6_Inside p{
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -141,14 +260,14 @@ font-weight: 400;
 
 #info7_Inside p{
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
   color: white;
   letter-spacing: 2px;
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .grid {
@@ -176,23 +295,43 @@ font-weight: 400;
 	margin: 20px;
 }
 
-.box {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	cursor: pointer;
-    border-radius: 10px;
-    -webkit-transition: 0.3s ease-in-out,
-    -webkit-transform 0.3s ease-in-out;
-	-moz-transition:  0.3s ease-in-out,
-    -moz-transform 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out,
-    transform 0.3s ease-in-out, ;
+@media only screen and (min-width:601px){
+  .imgtransform{
+
+  }
 }
 
-.box:hover {
-	transform: scale(1.05);
+
+
+@media only screen and (min-width: 601px) {
+  .box {
+  	width: 100%;
+  	height: 100%;
+  	position: relative;
+  	cursor: pointer;
+      border-radius: 10px;
+      -webkit-transition: 0.3s ease-in-out,
+      -webkit-transform 0.3s ease-in-out;
+  	  -moz-transition:  0.3s ease-in-out,
+      -moz-transform 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out,
+      transform 0.3s ease-in-out, ;
+
+  }
+  .box:hover {
+  	transform: scale(1.05);
+  }
 }
+
+@media only screen and (max-width: 600px) {
+  .box {
+  	width: 75%;
+  	height: 75%;
+  	position: center;
+    border-radius: 10px;
+  }
+}
+
 
 .info2 h3 {
   font-family: orator-std, monospace;
@@ -207,8 +346,8 @@ font-weight: 400;
 
 .info2 p {
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
 	color: #fff;
 	padding: 4px 5px;
 	margin: 0 30px;
@@ -218,8 +357,8 @@ font-weight: 400;
 
 .info3 p {
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
 	color: #fff;
 	padding: 4px 5px;
 	margin: 0 30px;
@@ -230,14 +369,14 @@ font-weight: 400;
 .info3 h2{
   text-align: center;
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .info3 li{
   font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   color: #fff;
   padding: 4px 5px;
   margin: 0 30px;
@@ -246,17 +385,18 @@ font-weight: 400;
   text-align: center;
 }
 
+/*Chips data product*/
 .cimg1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/cbetchile.jpg");
 }
 
 .cimg2 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/ccamote.jpg");
 }
 
@@ -270,35 +410,35 @@ font-weight: 400;
 .cimg4 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/cchicharron.jpg");
 }
 
 .cimg5 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/czanahoria.jpg");
 }
 
 .cimg6 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/ccamotechile.jpg");
 }
 
 .cimg7 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/cplatanochile.jpg");
 }
 
 .cimg8 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/cchicharronsoyachile.jpg");
 }
 
@@ -328,55 +468,113 @@ font-weight: 400;
 .mimg4 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/mixen.jpg");
 }
 
 .mimg5 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/mixarac.jpg");
 }
 
 .mimg6 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 	background-image: url("img/mixnopal.jpg");
 }
 
-.aligncenter{
-  text-align: center;
+
+
+@media only screen and (min-width: 601px) {
+  .aligncenter{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aligncenter{
+    text-align: center;
+    max-width: 250%;
+    height: auto;
+  }
 }
 
 * {
     box-sizing: border-box;
 }
 
-#featureMid{
-  width:100%;
-  height:100%;
-  margin:0 auto;
-	border:solid thick #006400;
-  overflow:hidden;
-}
-#featureMid img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 20%;
-  padding: 8px;
+
+@media only screen and (min-width: 601px) {
+  #featureMid{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+  	border:solid thick #006400;
+    overflow:hidden;
+  }
+  #featureMid img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    height: auto;
+  }
+
+  #featureMid p {
+  	width:100%;
+    text-align:center;
+    float:left;
+    padding:0.5em;
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
 
-#featureMid p {
-	width:100%;
-  text-align:center;
-  float:left;
-  padding:0.5em;
-  font-family: orator-std, monospace;
-font-style: normal;
-font-weight: 400;
+@media only screen and (max-width: 600px) {
+  #featureMid{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+  	border:solid thick #006400;
+    overflow:hidden;
+  }
+  #featureMid img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #featureMid p {
+  	width:100%;
+    text-align:center;
+    float:left;
+    padding:0.4em;
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image_support{
+    max-width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .image_support{
+    max-width: 20%;
+    height: 42%;
+  }
 }
 
 
@@ -399,13 +597,26 @@ font-weight: 400;
 }
 
 /*Centered image*/
- .cimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid #006400;
-  max-width: 75%;
-  height: auto;
+@media only screen and (min-width: 601px) {
+  .cimg {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid #006400;
+   max-width: 78%;
+   height: auto;
+ }
+}
+
+@media only screen and (max-width: 601px) {
+  .cimg {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid #006400;
+   max-width: 100%;
+   height: auto;
+ }
 }
 
 /*Centered image small*/
@@ -421,7 +632,7 @@ font-weight: 400;
 /*Text wrap*/
 .rightImg{
   float: right;
-  max-width: 25%;
+  max-width: 34%;
   height: auto;
   margin-left:10px;
   border: 5px solid #006400;
@@ -429,7 +640,7 @@ font-weight: 400;
 
 .rightLeft{
   float: left;
-  max-width: 25%;
+  max-width: 34%;
   height: auto;
   margin-left:10px;
   border: 5px solid #006400;
